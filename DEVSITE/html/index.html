@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+	<meta charset="utf-8">
+	<title>Site Game Mania</title>
+	<meta name="description" content="Codificação Front-End, SENAI">
+	<meta name="keywords" content=" HTML, CSS, JavaScript, SENAI">
+	<meta name="author" content="Maurício Buglia">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	
+
+</head>
+
+<body>
+
+	<!--Cabeçalho-->
+
+	<div class="headerA"></div>
+
+	</div>
+
+							<!--Caixa de pesquisa-->
+	<form>
+		<input class="buscar" onclick="" type="text" placeholder=" O que você procura?">
+	</form>
+
+	<header>
+		<nav>
+	
+			<div id="logo" onclick="window.location.href='index.html'"><img src="../imagens/logoGameMania.png"></div>
+
+			<div class="icone"></div>
+
+			<nav class="topo">
+
+				<a class="pcNotebooks" href="PC_Notebooks.html">PC/Notebooks</a>
+				<a class="consoles" href="Consoles.html">Consoles</a>
+				<a class="smartphones" href="Smartphones.html">Smartphones</a>
+				<a class="carrinho" onclick="window.location.href='compras.html'"><i class="fas fa-cart-plus"></i>Carrinho</a>
+				<a class="login" href="index.html"><i class="fas fa-user"></i>Login</a>
+				<a class="idioma" href="index.html"><i class="fas fa-globe"></i>BR/PT</a>
+
+		</nav>
+
+		<!--Menu latera retrátil-->
+
+		<input type="checkbox" id="check">
+	<label id="icone" for="check"><img src="../imagens/menu.svg" alt=""></label>
+
+		<div class="barra">
+
+			<nav class="menuLateral">
+
+				<a href=""><div class="link">Destaques</div></a>
+				<a href=""><div class="link">Novidades</div></a>
+				<a href=""><div class="link">Jogos</div></a>
+				<a href=""><div class="link">Acessórios</div></a>
+
+			</nav>
+
+
+	</header>
+		
+		<!-- Carrossel-->
+
+		<div class="carrossel">
+			<ul>
+				<li>
+					<img src="../imagens/pcgamer.webp" onclick="window.href='PC_Notebooks.html'" alt="">
+				</li>
+
+				<li>
+					<img src="../imagens/nintendoswitch.webp" onclick="window.location.href='Consoles.html'" alt="">
+				</li>
+
+				<li>
+					<img src="../imagens/redminote7.webp" onclick="window.location.href='Smartphones.html'" alt="">
+				</li>
+			</ul>
+		</div>
+
+		<!--Rodapé-->
+		<section>
+			<footer>
+				<div class="footer-content">
+					
+					<div class="social-list">
+						<ul>
+							<li><a href="https://www.facebook.com/"><i class="fab fa-facebook-square" style="color:#3B5998"></i> facebook.com/lojagamemania</a></li>
+							<li><a href="https://www.instagram.com/?hl=pt-br"><i class="fab fa-instagram-square" style="color:rgb(255, 8, 160)"></i> @lojagamemania</a></li>
+							<li><a href=""><i class="fas fa-envelope"></i> gamemania@vivaldi.com</a></li>
+							<li><a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square" style="color:green"></i> (11) 9 1234-4678</a></li>
+							<li><a href=""><i class="fas fa-map-marker-alt"></i> AV. Dom Pedro-300 Sâo Paulo-SP</a></li>
+						</ul>
+						<p>copyright &copy; 2021, Game Mania - Todos os direitos reservados</p>
+					</div>
+				</div>
+			</footer>
+		</section>
+
+</body>
+
+	<script type="text/javascript" src="bootstrap/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/scripts.js"></script>
+	<script type="text/javascript" src="../js/jquery-v3.6.0.min.js"></script>
+
+</html>
+
